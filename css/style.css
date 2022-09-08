@@ -15,6 +15,10 @@ a {
     text-decoration: none;
     color:white
 }
+i{
+    color: white;
+    align-self: center;
+}
 .flex{
     display: flex;
 }
@@ -51,14 +55,22 @@ a {
     padding: 5px;
 }
 .toolbar {
-    height: 80px;
+    height: 100px;
     background-color: rgb(34 34 34);
 }
 
-.op{
-    background-color: rgb(69, 69, 69);
+.botton.op{
+    background-color: rgba(69, 69, 69,0.7);
     position: absolute;
+    border-radius: 5px;
+    padding: 3px;
+}
+.bright{
     right: 0;
+    top: 2px;
+}
+.bleft{
+    right: 4.3em;
     top: 2px;
 }
 
@@ -69,7 +81,13 @@ a {
 }
 .end{
     background-color: red;
+    border-radius: 5px;
 }
+
+.botton{
+    display: inline-block;
+}
+
 .botton a i{
     font-size: 20px;
 }
