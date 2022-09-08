@@ -36,7 +36,7 @@ i{
 }
 
 .content {
-    height: calc(100% - 70px);
+    height: calc(100% - 80px);
     width: 90%;
     margin: 0 auto;
 }
@@ -61,15 +61,19 @@ i{
 
 /* TOOLBAR */
 .toolbar {
-    height: 70px;
+    height: 80px;
     background-color: rgb(34 34 34);
 }
-
-.botton.op{
+.card{
+    display: flex;
+    
+    min-height: 50px;
+}
+.op{
     background-color: rgba(69, 69, 69,0.7);
     position: absolute;
     right: 0;
-    top: 2px;
+    top: 5px;
     border-radius: 5px;
     padding: 3px;
 }
@@ -77,19 +81,19 @@ i{
 .bleft{
     margin-right: 4.3em;
 }
-
-/* TOOLBAR */
 .toolbar{
     justify-content: space-between;
     
 }
-.end{
-    background-color: red;
-    border-radius: 5px;
+.end a{
+    color: red;
+    background-color: rgb(74 74 74);
+    width: 100%;
 }
 
-.botton{
-    display: inline-block;
+.end{
+    height: 80px;
+    padding: 5px;
 }
 
 .botton a i{
@@ -99,4 +103,12 @@ i{
 .botton a{
     margin: 20px;
     text-align: center;
+}
+
+.left{
+    margin-left: -1.3em;
+}
+
+.right{
+    margin-right: -1.2em;
 }
