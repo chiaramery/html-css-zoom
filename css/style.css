@@ -81,19 +81,19 @@ i{
 .bleft{
     margin-right: 4.3em;
 }
-.toolbar{
-    justify-content: space-between;
-    
-}
 .end a{
     color: red;
     background-color: rgb(74 74 74);
-    width: 100%;
 }
 
 .end{
-    height: 80px;
+    justify-content: flex-end;
     padding: 5px;
+    width: 100%;
+}
+
+.center{
+    flex-grow: 2;
 }
 
 .botton a i{
